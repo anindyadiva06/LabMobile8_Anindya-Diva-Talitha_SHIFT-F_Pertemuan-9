@@ -6,6 +6,8 @@
 
 ![image](https://github.com/user-attachments/assets/0e629e4f-1807-4b74-8c1d-8e87ea7298a0)
 
+Pada tampilan awla terdapat list data mahasiswa yang sudah ditambahkan dan tombol 'Tambah Mahasiswa' untuk menambah list data mahasiswa. List data mahasiswa ditampilkan dalam bentuk card yang diiterasi menggunakan '*ngFor="let item of dataMahasiswa' yang dimana data diambil dari array 'dataMahasiswa'. Setiap iterasi menampilkan 'ion-card' yang berisi elemen 'ion-item' yaitu 'ion-label' yang menampilkan {{item.nama} (Nam) dan {{item.jurusan} (Jurusan), 'ion-button' untuk tombol 'Hapus' dan 'ion-button' untuk tombol 'Edit'. 
+
 **Tampilan Tambah Data Mahasiswa**
 
 ![image](https://github.com/user-attachments/assets/bf0fc724-3041-44da-9dcd-3ff58e94dc55)
